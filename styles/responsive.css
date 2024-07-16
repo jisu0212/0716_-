@@ -1,0 +1,13 @@
+/* min-width: 최소너비 */
+/* max-width: 최대너비 */
+
+/* 태블릿 1000*/
+@media screen and (max-width: 1000px){
+    header {justify-content: center;}
+    header nav {display:none;}
+    main .bg {background-size: cover;}
+}
+/* 모바일 768*/
+@media screen and (max-width:768px){
+    main .bg {background-position: center;}
+}
